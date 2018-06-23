@@ -4,3 +4,20 @@ body {
 	font-family: "Lato";
 	margin-right: 15vw;
 }
+h2 {
+	font-weight: bold;
+	font-style: uppercase;
+	font-size: 30px;
+}
+h5 {
+	font-size: 20px;
+}
+p {
+	font size: 15px;
+}
+footer {
+	background-color: darkgray;
+	color white;
+	text-align: center;
+	font-size: 10px;
+}
