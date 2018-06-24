@@ -1,5 +1,5 @@
 body {      
-	background-color: gray;
+	background-color: black;
 	color: white;
 	font-family: "Lato";
 	margin-right: 15vw;
@@ -11,7 +11,7 @@ h2 {
 	font-size: 30px;
 }
 h5 {
-	font-size: 20px;
+	font-size: 16px;
 }
 p {
 	font size: 15px;
@@ -21,4 +21,5 @@ footer {
 	color white;
 	text-align: center;
 	font-size: 10px;
+	width: 100%;
 }
