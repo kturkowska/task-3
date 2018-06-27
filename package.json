@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "autoprefixer-cli": "^1.0.0",
     "browser": "^0.2.6",
     "browser-sync": "^2.24.5",
+    "globstar": "^1.0.0",
     "nu-html-checker": "^0.1.0",
     "sync": "^0.2.5"
   }
