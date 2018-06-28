@@ -37,6 +37,7 @@
     "browser": "^0.2.6",
     "browser-sync": "^2.24.5",
     "globstar": "^1.0.0",
+    "mkdir": "0.0.2",
     "node-sass": "^4.9.0",
     "nu-html-checker": "^0.1.0",
     "rimraf": "^2.6.2",
