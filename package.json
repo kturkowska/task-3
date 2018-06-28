@@ -10,13 +10,11 @@
     "init:dirs": "mkdir sass css vendor images js",
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
-    
     "build": "npm-run-all build:*",
     "build:clean": "rimraf css/",
     "build:sass": "node-sass --output-style compact -o css sass",
     "build:autoprefixer": "autoprefixer-cli css/style.css",
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
-    
     "watch": "npm-run-all watch:*",
     "watch:browsersync": "browser-sync start --server --files css/*.css *.html",
     "watch:sassprefixer": "onchange scss/*.scss -- npm-run-all sassprefixer:*",
@@ -40,6 +38,7 @@
     "browser-sync": "^2.24.5",
     "globstar": "^1.0.0",
     "mkdir": "0.0.2",
+    "mkdirp": "^0.5.1",
     "node-sass": "^4.9.0",
     "nu-html-checker": "^0.1.0",
     "onchange": "^4.0.0",
