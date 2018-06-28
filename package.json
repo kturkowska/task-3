@@ -6,7 +6,7 @@
   "scripts": {
     "test": "npm run test:html",
     "test:html": "globstar nu-html-checker *.html",
-    "init-project": "mkdir sass css vendor images js && touch README.md index.html sass/style.scss js/script.js && curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
+    "init-project": "mkdir sass css vendor images js && touch README.md index.html sass/style.scss js/script.js && curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "autoprefixer-cli": "^1.0.0",
     "browser": "^0.2.6",
     "browser-sync": "^2.24.5",
+    "connect-browser-sync": "^2.1.0",
     "globstar": "^1.0.0",
     "mkdirp": "^0.5.1",
     "nu-html-checker": "^0.1.0",
